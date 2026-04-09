@@ -45,10 +45,10 @@ interests:
   - AI Ethics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: currently a PhD student, Geospatial analytics
+    institution: North Carolina State University
+    # start: 202-09-01
+    # end: 2019-06-30
     summary: |
       Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     button:
