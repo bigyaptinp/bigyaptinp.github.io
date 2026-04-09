@@ -2,23 +2,22 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Bigyapti Nepal
+  given: Bigyapti
+  family: Nepal
   alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronunciation: Big-Yup-Tee  # Example: Wáng Wěi
+  pronouns: she/her
 postnominals:
-  - PhD
-  - MIEEE
+  - PhD student
+
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Second year Ph.D. student
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am a Ph.D. student in Center for Geospatial Analytics in North Carolina State University. My research involves using
+  remote sensing to detect cyanobacteria in coastal region and how to make remote sensing usable for the community.
+  I love cooking and day dreaming. I love Harry Potter too!
 
 affiliations:
   - name: Meta AI
