@@ -102,13 +102,19 @@ skills:
 languages:
   - name: English
     level: 5
+    label: Fluent
+  - name: Nepali
+    level: 5
     label: Native
-  - name: Spanish
+  - name: Hindi
     level: 4
     label: Fluent
+  - name: Urdu
+    level: 4
+    label: 4
 
 awards:
-  - title: Best Paper Award
+  - title: Poster presentation
     awarder: NeurIPS
     date: "2022-12-01"
     summary: Awarded for groundbreaking work on efficient training of large models.
