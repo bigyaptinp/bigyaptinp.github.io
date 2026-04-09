@@ -10,6 +10,6 @@ tags:
   - Markdown
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+This was my project that I conducted during my class with Dr. Tateosion. This visualization shows the number of reports of algal bloom submitted by public to the Harmful Algal Bloom Dashboard
 
 <!--more-->
