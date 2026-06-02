@@ -1,3 +1,5 @@
+import { publications } from './content/publications'
+
 const shortBio = 'PhD Student at North Carolina State University'
 
 const name = 'Bigyapti Nepal'
@@ -40,25 +42,6 @@ const contacts = [
     icon: (
       <path d="m12 4.5 8.5 4.25L12 13 3.5 8.75 12 4.5Zm-5.25 6.07V14c0 .37.2.71.53.88C8.42 15.53 10.12 16 12 16s3.58-.47 4.72-1.12c.33-.17.53-.51.53-.88v-3.43L12 13.18 6.75 10.57Zm12 1.31a.75.75 0 0 1 .75.75v4.12a.75.75 0 0 1-1.5 0v-4.12a.75.75 0 0 1 .75-.75Z" />
     )
-  }
-]
-
-const publications = [
-  {
-    title: 'Socio-economic and sharecropping influence on the adoption of practices beneficial to soil quality and nitrogen retention in Nepal',
-    venue: 'Published in Farming System',
-    year: '2024',
-    summary: 'The paper examines the determinants of adopting soil-friendly agricultural practices. It focuses on sharecropping influence on adoption of practices. Being a sharecropper is associated with low adoption of some and high adoption of other practices. Sharecroppers mostly do not adopt minimum tillage and fertiliser incorporation. Contrary to assertions, adoption is more context-dependent than uniformly hindered by contract.',
-    recommended_citation: 'Recommended citation: Begho, T., Joshi, R., Nepal, B., Shrestha, R., Sharma, S., & Eory, V. (2024). Socio-economic and sharecropping influence on the adoption of practices beneficial to soil quality and nitrogen retention in Nepal. Farming System, 2(4), 100108. https://doi.org/10.1016/j.farsys.2024.100108',
-    paper_link: 'https://doi.org/10.1016/j.farsys.2024.100108'
-  },
-  {
-    title: 'Nepalese farmers’ perceptions of nitrogen inputs and attitudes to soil management: Implications for soil health and environmentally sustainable farming',
-    venue: 'Published in Soil Security',
-    year: '2023',
-    summary: 'Soil health is a concern in Nepal.The prevalence of some local practices is contributory factor to human-induced soil degradation. Farmers’ perceptions and attitudes influence their soil management practices. Education, training and increasing awareness will help farmers manage soils sustainable.Promoting a balanced approach that encompasses financial viability and environmental sustainability is crucial.', 
-    recommended_citation: 'Recommended citation: Joshi, R., Nepal, B., Sharma, S., & Begho, T. (2023). Nepalese farmers’ perceptions of nitrogen inputs and attitudes to soil management: Implications for soil health and environmentally sustainable farming. Soil Security, 12, 100102. https://doi.org/10.1016/j.soisec.2023.100102',
-    paper_link: 'https://doi.org/10.1016/j.soisec.2023.100102'
   }
 ]
 
@@ -209,11 +192,11 @@ function App() {
                 </div>
                 <h3>{item.title}</h3>
                 <p>{item.summary}</p>
-                <p> <b>Recommended Citation:</b> {item.recommended_citation}</p>
-                {item.paper_link ? (
+                <p><b>Recommended Citation:</b> {item.recommendedCitation}</p>
+                {item.paperLink ? (
                   <a
                     className="paper-link"
-                    href={item.paper_link}
+                    href={item.paperLink}
                     target="_blank"
                     rel="noreferrer"
                   >
